@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image:url('../img/achtergrond.jpg');
+	font-family: Verdana;
+	background-repeat:no-repeat;
+}
+
+div.container {
+	width: 800px;
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration:none;
+}
+
+div.header {
+	background-image: url('../img/logo100.png');
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100%;
+}
+
+div.menu {
+	border: 1px solid silver;
+	background-color:white;
+	padding: 5px;
+	font-family: arial;
+	font-size: 14pt;
+}
+
+div.menu ul li {
+	display: inline;
+	margin-right: 1em;	
+}
+
+div.menu ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+div.menu ul li a:hover {
+	color: white;
+	text-decoration:none;
+}
+
+div.content {
+	position: relative;
+	background-color:black;
+	min-height: 500px;
+	padding: 1em;
+	color:white;
+	border:1px solid #333333;
+	opacity:0.75;
+    z-index: -1;
+	text-decoration:none;
+}
+
+div.article {
+	min-height: 150px;
+	border-bottom: 1px solid silver;
+	margin-bottom: 1em;
+	text-decoration:none;
+}
+
+/* artikel titel */
+div.article h2 {
+	font-family: "Roboto Condensed",arial,helvetica,"Liberation Sans",sans-serif;
+	margin-bottom: 0.5em;	
+}
+
+/* auteur en datum */
+div.article h3 {
+	font-family: arial,helvetica,"Liberation Sans",sans-serif;
+	font-size: 12px;
+	color:black;
+	font-weight: normal;
+	font-style: italic; 
+	margin-bottom: 0.5em;			
+}
+
+div.article p {
+	font-family: arial,helvetica,"Liberation Sans",sans-serif;
+}
+
+img.category {
+	height: 64px;
+	float: left;
+}
+div.content img{
+	display:inline;
+	float:right;
+	margin-left:1em;
+	margin-bottom:1em;
+	border:1px solid #333333;
+	background-color:white;
+	margin-top:0px;
+}
